@@ -1,10 +1,9 @@
 # Arem-Taller2
 
 Este taller fue hecho para afianzar el uso del framework spark para desarrollar aplicaciondes web de forma mas sencilla y ligera,esta pagina web 
-sera la encagada de realizar las operaciones aritmeticas como lo son la media y la desviacion estandar capturando los datos desde la pagina web 
-y asi mismo tambien mostrar el resultado de las operaciones en la pagina web,en es taller haremos uso de la linkedlist que se  que se derarollaron 
-en el taller 1 ,solo que esta vez la entrada de datos se hara desde el servidor web que se desarrollamo con spark en vez de leer los datos desde 
-arcvivo txt
+sera la encagada de realizar las operaciones aritmeticas como lo son la media y la desviacion estandar capturando los datos para las operaciones desde la pagina web 
+y asi mismo tambien mostrar el resultado de las operaciones en la pagina web,en este taller haremos uso de la linkedlist que se implemento  en el 
+derarollaro del taller 1.
 
 ## Despliegues
 
