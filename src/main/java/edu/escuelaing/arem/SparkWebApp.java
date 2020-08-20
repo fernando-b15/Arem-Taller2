@@ -14,8 +14,7 @@ public class SparkWebApp
     public static void main( String[] args )
     {
     	port(getPort());
-    	get("/hello", (req, res) -> "Hello Heroku");
-    	get("/input", (req, res) ->  inputView(req, res));
+    	get("/", (req, res) ->  inputView(req, res));
     	get("/results", (req, res) -> resultsView(req, res));
     }
     private static String  inputView(Request req, Response res) {
