@@ -19,6 +19,58 @@ Para el uso de la aplicacion se requiere que el computador tenga instalados los 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://arem-taller2.herokuapp.com/)
 
+# Instalacion
+
+Para comenzar la instalacion porfavor copie el siguiente comando en su linea de comandos :
+
+~~~
+git clone https://github.com/fernando-b15/Arem-Taller2
+~~~
+
+Posteriormente desde linea comandos ingrese al directorio de la aplicacion con el siguinete comando :
+
+![image3](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/clone.PNG)
+
+~~~
+cd Arem-Taller2
+~~~
+
+Ahora para realizar la compilacio y empaquetacion de la aplicacion ,ingrese el siguinete comando:
+
+~~~
+mvn package
+~~~
+
+![image1](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/package.PNG)
+
+# Pruebas
+
+Para realizar la pruebas asociadas a la aplicacion ,ingrese el siguiente codigo
+
+~~~
+mvn test
+~~~
+
+![image2](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/test.PNG)
+
+# Ejecucion
+
+Para la ejecucion del programa desde linea de comandos windows, ingrese el siguinete codigo:
+
+~~~
+java -cp target/classes;target/dependency/* edu.escuelaing.arem.SparkWebApp
+~~~
+
+![image4](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/run.PNG)
+
+Pero si desea hacer la compilacion desde kernel linux ,ingrese el siguinete codigo: 
+
+~~~
+java  $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arem.SparkWebApp
+~~~
+
+![image5](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/web1.PNG)
+
 # Licencia
 
 La aplicacion cuenta con la siguiente [MIT LICENCE](https://github.com/fernando-b15/Arem-Taller2/blob/master/LICENSE) 
