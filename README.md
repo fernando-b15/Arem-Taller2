@@ -53,6 +53,24 @@ mvn test
 
 ![image2](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/test.PNG)
 
+# Ejecucion
+
+Para la ejecucion del programa desde linea de comandos windows, ingrese el siguinete codigo:
+
+~~~
+java -cp target/classes;target/dependency/* edu.escuelaing.arem.SparkWebApp
+~~~
+
+![image4](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/run.PNG)
+
+Pero si desea hacer la compilacion desde kernel linux ,ingrese el siguinete codigo: 
+
+~~~
+java  $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arem.SparkWebApp
+~~~
+
+![image5](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/web1.PNG)
+
 # Licencia
 
 La aplicacion cuenta con la siguiente [MIT LICENCE](https://github.com/fernando-b15/Arem-Taller2/blob/master/LICENSE) 
