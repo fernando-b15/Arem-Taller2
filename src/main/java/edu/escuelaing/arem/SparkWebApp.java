@@ -11,12 +11,26 @@ import spark.Response;
 
 public class SparkWebApp 
 {
+	/**
+     * Este metodo main inicia el servidor SparkWebApp y define algunas peticiones y respuestas haciendo uso 
+     * de algunas funciones lambda
+     */
+	
     public static void main( String[] args )
     {
     	port(getPort());
     	get("/", (req, res) ->  inputView(req, res));
     	get("/results", (req, res) -> resultsView(req, res));
     }
+    
+    /**
+    *Este metodo contruye la vista inputView apartir del string html view que retorna  
+    *
+    * @param req Tiene la informacion de la petición que llega al servidor.
+    * @param res Tiene la información con la respuesta del servidor.
+    * @return String con la informacion html de la vista de entrada.
+    */
+    
     private static String  inputView(Request req, Response res) {
         String view = "<!DOCTYPE html>"
                 + "<html>"
@@ -38,6 +52,16 @@ public class SparkWebApp
                 + "</html>";
         return view;
     }
+    
+    /**
+    *Este metodo contruye la vista resultView apartir un req que le envia inputView y asi retorna
+    *un res html con la informacion de la view  
+    *
+    * @param req Tiene la informacion de la petición que llega al servidor.
+    * @param res Tiene la información con la respuesta del servidor.
+    * @return String con la informacion html de la vista de entrada.
+    */
+    
     private static String resultsView(Request req, Response res) {
     	 String datos[] = req.queryParams("datos").split(",");
     	 listaEnlazada linkedlist = new listaEnlazada();
@@ -75,7 +99,12 @@ public class SparkWebApp
                  + "</html>";
          return view;
     }
-
+    
+    /**
+     *Este metodo se encarga de retonar el puerto por defecto que esta definido en una variable de entorno 
+     *para correr el servidor web sobre ese puerto.
+     */
+    
     static int getPort() {
     	 if (System.getenv("PORT") != null) {
     		 return Integer.parseInt(System.getenv("PORT"));
