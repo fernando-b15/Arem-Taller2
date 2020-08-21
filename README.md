@@ -53,6 +53,18 @@ mvn test
 
 ![image2](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/test.PNG)
 
+# Documentacion
+
+Para obtener la documentacion de la aplicacion , ingrese el siguinete codigo
+
+~~~
+mvn javadoc:javadoc
+~~~
+
+![image6](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/javadoc.PNG)
+
+para acceder a la documentacion de la apliacacion ingrese al siguiente enlace [apidocs](https://github.com/fernando-b15/Arem-Taller2/tree/master/apidocs) 
+
 # Ejecucion
 
 Para la ejecucion del programa desde linea de comandos windows, ingrese el siguinete codigo:
