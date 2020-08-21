@@ -85,7 +85,7 @@ java  $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arem.Spar
 
 # Informe del taller
 
-Para conocer mas a fondo el desarrollo del taller acceda al [Informe](https://github.com/fernando-b15/Arem-Taller2/blob/master/Arem_Taller1.pdf)
+Para conocer mas a fondo el desarrollo del taller acceda al [Informe](https://github.com/fernando-b15/Arem-Taller2/blob/master/Arem_Taller2.pdf)
 
 # Licencia
 
