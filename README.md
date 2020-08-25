@@ -83,6 +83,10 @@ java  $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arem.Spar
 
 ![image5](https://github.com/fernando-b15/Arem-Taller2/blob/master/img/web1.PNG)
 
+# Informe del taller
+
+Para conocer mas a fondo el desarrollo del taller acceda al [Informe](https://github.com/fernando-b15/Arem-Taller2/blob/master/Arem_Taller2.pdf)
+
 # Licencia
 
 La aplicacion cuenta con la siguiente [MIT LICENCE](https://github.com/fernando-b15/Arem-Taller2/blob/master/LICENSE) 
